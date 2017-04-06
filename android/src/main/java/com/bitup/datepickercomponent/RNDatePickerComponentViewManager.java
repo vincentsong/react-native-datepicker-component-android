@@ -32,7 +32,7 @@ public class RNDatePickerComponentViewManager extends SimpleViewManager<DatePick
             @SuppressLint("DefaultLocale") String date = String.format("%d-%d-%d", year, monthOfYear+1, dayOfMonth);
             reactContext.getNativeModule(UIManagerModule.class)
                     .getEventDispatcher()
-                    .dispatchEvent(new RNDatePickerComponentEvent(view.getId(), 0, date));
+                    .dispatchEvent(new RNDatePickerComponentEvent(view.getId(), date));
         }
     };
 

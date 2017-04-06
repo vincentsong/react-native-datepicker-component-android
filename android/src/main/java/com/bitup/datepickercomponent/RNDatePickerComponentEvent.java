@@ -15,8 +15,8 @@ public class RNDatePickerComponentEvent extends Event {
 
     private String date;
 
-    public RNDatePickerComponentEvent(int viewTag, long timestampMs, String date) {
-        super(viewTag, timestampMs);
+    public RNDatePickerComponentEvent(int viewTag, String date) {
+        super(viewTag);
         this.date = date;
     }
 
