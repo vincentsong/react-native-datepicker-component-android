@@ -1,6 +1,8 @@
 
 # react-native-date-picker-component-android
 
+## Missing native date picker component for android
+
 ## Getting started
 
 `$ npm install react-native-date-picker-component-android --save`
