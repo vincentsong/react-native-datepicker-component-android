@@ -1,0 +1,26 @@
+{
+  "name": "react-native-date-picker-component-android",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentsong/react-native-datepicker-component-android.git"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "vincent.song",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^15.4.2",
+    "react-native": "^0.42.0"
+  },
+  "peerDependencies": {
+    "react": ">=15.4.2",
+    "react-native": ">=0.42.0"
+  }
+}
