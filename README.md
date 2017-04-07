@@ -22,7 +22,7 @@
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
   - Add `import com.bitup.datepickercomponent.RNDatePickerComponentPackage;` to the imports at the top of the file
-  - Add `new RNDatePickerComponentAndroidPackage()` to the list returned by the `getPackages()` method
+  - Add `new RNDatePickerComponentPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-date-picker-component-android'
