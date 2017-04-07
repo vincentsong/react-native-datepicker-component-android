@@ -1,11 +1,11 @@
 {
   "name": "react-native-date-picker-component-android",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vincentsong/react-native-datepicker-component-android.git"
   },
-  "description": "",
+  "description": "The missing native date picker component for android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

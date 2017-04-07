@@ -1,6 +1,5 @@
-var React = require('react');
-var Component = React.Component;
-var { requireNativeComponent, View } = require('react-native');
+import React, {Component} from 'react';
+import { requireNativeComponent, View } from 'react-native';
 
 /**
  * React native JS component
