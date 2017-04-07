@@ -58,4 +58,5 @@ class YourComponentClass extends Component {
   }
 }
 ```
-  
+## Known issue
+The calendar mode is not working as expected, the clendar view will disappear when user changed the month twice. So only spinner mode is working now.  
