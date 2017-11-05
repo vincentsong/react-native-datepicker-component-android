@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import { requireNativeComponent, View } from 'react-native';
 
 /**
@@ -36,9 +37,9 @@ class DatePickerComponent extends Component {
  */
 DatePickerComponent.propTypes = {
   ...View.propTypes,
-  onChange: React.PropTypes.func,
-  showCalendar: React.PropTypes.bool,
-  date: React.PropTypes.string
+  onChange: PropTypes.func,
+  showCalendar: PropTypes.bool,
+  date: PropTypes.string
 }
 
 /**

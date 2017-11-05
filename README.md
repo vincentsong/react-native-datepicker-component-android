@@ -3,10 +3,14 @@
 
 ## The Missing native date picker component for android, especially when you want to show a spinner picker in android 7.0
 
-## Dependencies
-` "react": ">=15.4.2"`
+## Forked from vincentsong/react-native-datepicker-component-android
 
-`"react-native": ">=0.42.0"`
+ - Fixed React, ReactNative depreciated issues
+
+## Dependencies
+` "react": ">=16.0.0"`
+
+`"react-native": ">=0.47.0"`
 
 ## Getting started
 
@@ -48,7 +52,7 @@ class YourComponentClass extends Component {
   render() {
     return (
       ... //other components
-      <DatePicker 
+      <DatePicker
         style={{ width: 320, height: 300 }}
         date={this.state.date}
         showCalendar = {true} // if you need to use calendar view, default is false
