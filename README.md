@@ -3,6 +3,12 @@
 
 ## The Missing native date picker component for android, especially when you want to show a spinner picker in android 7.0
 
+### Screenshots
+
+![](https://github.com/Noitidart/react-native-datepicker-component-android/blob/master/screenshot-picker.png?raw=true)
+
+![](https://github.com/Noitidart/react-native-datepicker-component-android/blob/master/screenshot-cal.png?raw=true)
+
 ## Forked from vincentsong/react-native-datepicker-component-android
 
  - Fixed React, ReactNative depreciated issues
